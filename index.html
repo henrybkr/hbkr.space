@@ -45,26 +45,23 @@
                             <div style="height: 20px;"></div>
                             <div class="collapsecontainer d-flex justify-content-center mb-2">
                                 <i class="tiny m-0 float-left mr-2" style="line-height: 2.75rem;">Standard Full CV</i>
-                                <nav class="float-left mr-3" style="min-width: 0; width: 20%;">
-
+                                <nav class="float-left mr-3">
                                     <ul style="min-width: 0;">
-
-                                        <li class="myicon" style="width: 100%">
+                                        <li class="myicon">
                                             <a href="cv/Henry%20Booker%20CV%20-%20Standard%20-%202019%20Aug.pdf" download style="min-width: 0; font-size: 1.5em; color: white; opacity: 0.7;" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="PDF format">
                                                 <i class="fas fa-file-pdf"></i>
                                             </a>
                                         </li>
-                                        <li class="myicon" style="width: 50%">
+                                        <li class="myicon">
                                             <a href="cv/Henry%20Booker%20CV%20-%20Standard%20-%202019%20Aug.docx" download style="min-width: 0; font-size: 1.5em; color: white; opacity: 0.7;" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Microsoft Word format">
                                                 <i class="fas fa-file-word"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </nav>
-                                <nav class="float-left ml-4" style="min-width: 0; width: 10%;">
-
+                                <nav class="float-left ml-4">
                                     <ul style="min-width: 0;">
-                                        <li class="myicon" style="width: 100%">
+                                        <li class="myicon">
                                             <a href="cv/Henry%20Booker%20CV%20-%20Graphical%20-%202019%20Aug.pdf" download style="min-width: 0; font-size: 1.5em; color: white; opacity: 0.7;" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="PDF format">
                                                 <i class="fas fa-file-pdf"></i>
                                             </a>
@@ -96,25 +93,47 @@
 				<!-- Work -->
 				<article id="projects">
 					<h2 class="major" style="margin-top: 0rem;">Recent Projects</h2>
-                    <input type="button" class="btn btn-sm btn-info mb-2" value="Jones & Palmer" onclick=" relocate_home()">
-
-                    <script>
-                    function relocate_home()
-                    {
-                         location.href = "projects/exercise1";
-                    } 
-                    </script>
+                
+					<h3><a href="https://github.com/henrybkr/renumit" target="_blank">Renumit</a></h3>
+					<div class="row mb-4">
+						<div class="col-5 img-hover rounded" style="overflow: hidden;">
+                            <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/renumit1.jpg" alt="" width="100%"/>
+                        </div>
+						<div class="col-7">
+							<p>With the increase in streaming services, I've become more interested in 'cutting the cord' and reducing the number of online streaming I have to sign up for. This led me to instead collect physical media which I then archive for easy personal viewing. However, sorting these files can become tedious and current software offerings have limitations. So, I decided to build a Python-based app to achieve my automation needs and work on my Python skills along the way. I've opted to make the app open-source for others to enjoy!</p>
+							<p>This tool primarily has the task of interacting with various media database API's, analysing input filename paths and video metadata to gain data that is used to make assumptions and produce new user-configured filenames and file structures.</p>
+						</div>
+					</div>
+					
+					<h3><a href="https://github.com/henrybkr/InterviewDemos" target="_blank">Jones & Palmer Code Test</a></h3>
+					<div class="row mb-4">
+						<div class="col-7">
+							<p>During interview stages at Jones & Palmer, I was tasked with completing a code test. In short, I was asked to create a responsive layout website  that best matched a provided visual design with no further instruction. This was done swiftly and I met all requirements I was provided with as well as including some bonus features. Instead of taking the estimated 2 weeks, it was completed within a day. See more details via the dedicated demo github page.</p>
+						</div>
+                        <div class="col-5 img-hover rounded" style="overflow: hidden;">
+                            <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/jp1.png" alt="" width="100%"/>
+                        </div>
+					</div>
+					<h3><a href="https://github.com/henrybkr/hbkr.space" target="_blank">hbkr.space</a></h3>
+					<div class="row mb-4">
+						<div class="col-5 img-hover rounded" style="overflow: hidden;">
+                            <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/portfolio1.jpg" alt="" width="100%"/>
+                        </div>
+						<div class="col-7">
+							<p>Yep, this site. Feel free to check out the source code over on github.</p>
+							<p>This site acts as a digital CV for potential employers. A responsive template was used to get running quickly, but a fairly large amount of modifications have been made to make it my own. Expect a fresh portfolio sometime in 2020!</p>
+						</div>
+					</div>
 					<h3 class="mt-4">Unreleased Django Application</h3>
 					<div class="row mb-4">
 						<div class="col-7">
-							<p>During my studies I was approached by a client with an interest in archiving information with a focus on the film industry such as television and movies. Their request was to produce a more visually pleasing experience and offer a wider range of features in comparison to similar potential rival sites such as IMDb and TheMovieDB.</p>
+							<p>During my studies I was approached by a client with an interest in archiving information with a focus on the film industry. Their request was to produce a more visually pleasing experience and offer a wider range of features in comparison to similar potential rival sites such as IMDb and TheMovieDB.</p>
 							<p>Requirements for this projects were exceeded. The web app is capable of offering information to users, easily allow for edits or overwrites as well as offering community elements such as customisable user accounts. The user experience was a particular area which received heavy focus. The interface follows a minimal look but unfolds to reveal additional information should a user need it.</p>
 						</div>
                         <div class="col-5 img-hover rounded" style="overflow: hidden;">
                             <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/django2.png" alt="" width="100%"/>
                             <img class="img-hover rounded cursor-pointer mb-2 mt-0" src="assets/images/projects/django1.png" alt="" width="100%"/>
                         </div>
-                        
 					</div>
 					<div class="row mb-4">
 						<div class="col-5 img-hover rounded" style="overflow: hidden;">
@@ -149,7 +168,7 @@
 						<div class="col-7">
 							<h3>'Deep' - Unreal Engine VR Project</h3>
 							<p>Further developing my personal skills in game development led me to experiment with emerging Virtual Reality (VR) technologies, working closely an industry leading game engine; Unreal Engine 4 and at the time brand new Oculus Rift headsets.</p>
-							<p>As a university project for my bachelor's degree I focused my research on the immersive opportunities that such technologies could offer and achieved this by developing a horror genre video game. The game throws the player in the middle of a manhunt, desperate to find a missing child which leads you into an unknown abandon mine. This game was tested via focus group and surveying means, receiving mostly positive yet constructive feedback.</p>
+							<p>As a university project for my bachelor's degree I focused my research on the immersive opportunities that such technologies could offer and achieved this by developing a horror genre video game. The game throws the player in the middle of a manhunt event, desperate to find a missing child which leads you into an unknown abandon mine. This game was tested via focus group and surveying means, receiving mostly positive yet constructive feedback.</p>
 						</div>
 					</div>
 					<div class="row mb-4">
@@ -157,6 +176,7 @@
 							<h3>Various JavaScript Projects</h3>
 							<p>During my studies we experimented with the use of JavaScript in a number of places. AI was introduced to me in the form of JavaScript, where we would produce a script that could determine the best route for a character to take through a randomly generated map full of hazards and special rules.</p>
 							<p>HTML5 canvases was also a point of interest. Further experimentation is JavaScript led us to create image and sound editing applications without the use of any existing libraries, allowing for realtime modifications and visualisations among other things. Another noteworthy one was producing short 3D browser games using three.js, projects I was particularly fond of during my bachelors.</p>
+							<p>JavaScript was where I was introduced to Artificial Intelligence (AI) concepts. During my degree we were tasked with creating an AI capable of completing levels in a 2D board game. Map placements were randomly generated and the player has both objectives and hazards to deal with. I produced a viable solution for this task and then went a step further with time remaining to increase efficiency and reduce steps required for the AI to complete levels.</p>
 						</div>
 						<div class="col-5 img-hover rounded" style="overflow: hidden;">
 							<img class="img-hover rounded cursor-pointer mb-2 mt-0" src="assets/images/projects/Canvas1.jpg" alt="" width="100%"/>

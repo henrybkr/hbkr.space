@@ -948,7 +948,8 @@ button {
   #header .typerText {
     font-size: 1.5rem;
     margin-top: 0.25rem;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    min-height: 75px; }
   #header .content {
     border-style: solid;
     border-color: #ffffff;
@@ -968,10 +969,10 @@ button {
       max-height: 40rem;
       overflow: hidden; }
       #header .content .inner h1 {
-        font-size: 2.25rem;
-        line-height: 0;
-        margin-bottom: 2rem;
-        letter-spacing: 0.5rem; }
+        font-size: 1rem;
+        line-height: 1;
+        margin-bottom: 1rem;
+        letter-spacing: 0.2rem; }
     #header .content p {
       letter-spacing: 0.2rem;
       font-size: 1rem;
@@ -1044,6 +1045,13 @@ button {
       padding-top: 0;
       padding-bottom: 0;
       opacity: 0; }
+  @media (min-width: 800px) {
+    #header .content .inner h1 {
+      font-size: 2.5rem;
+      line-height: 0;
+      margin-bottom: 2rem;
+      letter-spacing: 0.3rem; }
+  }
   @media screen and (max-width: 980px) {
     #header .content p br {
       display: none; } }
@@ -1063,6 +1071,7 @@ button {
       padding: 2.5rem 1rem; }
     #header .content p {
       line-height: 1.875; } }
+    
   @media screen and (max-width: 480px) {
     #header {
       padding: 1.5rem 0; }

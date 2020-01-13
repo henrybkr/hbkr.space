@@ -1,7 +1,12 @@
-<p align="center"><img src="" width="350"></p>
+<p align="center"><img src="https://github.com/henrybkr/hbkr.space/blob/master/assets/images/logos/logo_blue.svg" width="75"></p>
 
-# [hbkr.space](hbkr.space)
-> Personal portfolio site showcasing previous work and experience.
+# [hbkr.space](http://hbkr.space)
+> My personal portfolio site showcasing previous work and experience.
+
+### Note
+> Currently hosted via a free hosting service. Load times have been known to be pretty slow.
+
+<p align="center"><img src="https://github.com/henrybkr/hbkr.space/blob/master/assets/images/projects/portfolio1.jpg" width="350"></p>
 
 ## About
 This is my current personal portfolio site that aims to provide an insight into what I can offer a potential employer. It's a fairly static informative site that functions well across multiple resolutions and browsers. It's worth noting that the site is based on a HTML5UP template, aimed at reducing production time. This isn't my first portfolio site as I like to keep things fresh - expect a complete overhaul sometime during 2020.
@@ -32,5 +37,6 @@ This is my current personal portfolio site that aims to provide an insight into 
 * [FontAwesome](https://fontawesome.com/)
 * [Devicon](https://github.com/konpa/devicon/)
 * JavaScript
+* jQuery
 * HTML
 * SASS/CSS
