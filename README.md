@@ -6,7 +6,8 @@
 ### Note
 > Currently hosted via a free hosting service. Load times have been known to be pretty slow.
 
-<p align="center"><img src="https://github.com/henrybkr/hbkr.space/blob/master/assets/images/projects/portfolio1.jpg" width="350"></p>
+## Preview
+<p align="center"><img src="https://github.com/henrybkr/hbkr.space/blob/master/assets/images/projects/portfolio1.jpg" width="500"></p>
 
 ## About
 This is my current personal portfolio site that aims to provide an insight into what I can offer a potential employer. It's a fairly static informative site that functions well across multiple resolutions and browsers. It's worth noting that the site is based on a HTML5UP template, aimed at reducing production time. This isn't my first portfolio site as I like to keep things fresh - expect a complete overhaul sometime during 2020.
