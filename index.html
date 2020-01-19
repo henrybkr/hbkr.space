@@ -25,7 +25,7 @@
 			<header id="header">
 				<img class="mylogo" draggable="false" src="assets/images/logos/logo.svg" alt="" />
 				<p class="typerText">I am 
-					<span class="typer" id="" data-words="approachable and communicative, professional to the max!, your friendly neighbourhood spider-man, easy-going yet decisive, productive and organised, perceptive to detail, annoyed nobody left comments in their code, confident and opportunistic, open-minded to change, honest and hard-working, forever the optimist, a veri god spoller, running out of things to say" data-colors="white" data-delay="55" data-deleteDelay="1900"></span>
+					<span class="typer" id="" data-words="approachable and communicative, professional to the max!, your friendly neighbourhood spider-man, easy-going yet decisive, productive and organised, perceptive to detail, annoyed nobody left comments in their code, confident and opportunistic, open-minded to change, honest and hard-working, forever the optimist, a veri god spoller, going to figure out a simpler solution, running out of things to say, wondering if anyone will actually read these" data-colors="white" data-delay="55" data-deleteDelay="1900"></span>
 					<span class="cursor" data-owner="main"></span>
 				</p>
 				<nav>
@@ -39,9 +39,9 @@
 				<div class="content mt-4">
 					<div class="inner">
 						<h1>Nice to meet you, I'm <name>Henry</name></h1>
-                        <div class="mb-3" style="margin-top: -0.5rem; opacity: 0.8;">and welcome to my personal space</div>
-                        <div class="tiny" data-toggle="collapse" data-target="#collapseme" aria-expanded="false" aria-controls="collapseme" style="color: rgba(255, 255, 255, 0.7)"><i>Recruiting? <u class="cv-click">Grab a CV</u></i></div>
-                        <div class="collapse" id="collapseme">
+						<div class="mb-2" style="margin-top: -0.5rem; opacity: 0.8;">and welcome to my personal space</div>
+                        <div class="tiny mt-2" data-toggle="collapse" data-target="#collapseme" aria-expanded="false" aria-controls="collapseme" style="color: rgba(255, 255, 255, 0.7)"><i>Recruiting? <u class="cv-click">Grab a CV</u></i></div>
+						<div class="collapse" id="collapseme">
                             <div style="height: 20px;"></div>
                             <div class="collapsecontainer d-flex justify-content-center mb-2">
                                 <i class="tiny m-0 float-left mr-2" style="line-height: 2.75rem;">Standard Full CV</i>
@@ -71,8 +71,11 @@
                                 <i class="tiny m-0 float-left ml-2" style="line-height: 2.75rem;">Condensed (Graphical)</i>
                             </div>
                         </div>
-                        
 					</div>
+				</div>
+				<div class="social-block mt-2" draggable="false">
+					<a href="https://github.com/henrybkr" target="_blank" class="fab fa-github social-icon no-underline" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="GitHub // henrybkr"></a>
+					<a href="https://uk.linkedin.com/in/hbkr" target="_blank" class="fab fa-linkedin social-icon no-underline" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="LinkedIn // hbkr"></a>
 				</div>
 			</header>
 			<!-- Main -->
@@ -92,14 +95,26 @@
 				<!-- Work -->
 				<article id="projects">
 					<h2 class="major" style="margin-top: 0rem;">Recent Projects</h2>
-                
+				
+					<h3><a href="https://github.com/henrybkr/hbkr-tasks" target="_blank">hbkr-tasks</a> // <a href="https://github.com/henrybkr/laravel-hbkr-tasks" target="_blank">laravel-hbkr-tasks</a></h3>
+					<div class="row mb-4">
+						<div class="col-7">
+							<p>Personal tinkering led me down the route of reactive web frameworks and my first stop is Vue.JS. The concept of this project is to provide a suitable environment for task management, specifically aimed at developers.</p>
+							<p>Extensive design documentation and assets were produced prior to any implementation for this project. The frontend Vue.JS application interacts with a backend Laravel (PHP framework) RESTful API which makes delivers and makes requested changes to user task records. Later I hope to implement further features such as secure personal user accounts and management control functionality.</p>
+						</div>
+						<div class="col-5 img-hover rounded" style="overflow: hidden;">
+                            <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/vuejs1.gif" alt="" width="100%"/>
+                            <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/vuejs2.jpg" alt="" width="100%"/>
+                        </div>
+					</div>
+
 					<h3><a href="https://github.com/henrybkr/renumit" target="_blank">Renumit</a></h3>
 					<div class="row mb-4">
 						<div class="col-5 img-hover rounded" style="overflow: hidden;">
                             <img class="img-hover rounded cursor-pointer mb-2 mt-2" src="assets/images/projects/renumit1.jpg" alt="" width="100%"/>
                         </div>
 						<div class="col-7">
-							<p>With the increase in streaming services, I've become more interested in 'cutting the cord' and reducing the number of online streaming I subscribe to. This led me to collect physical media for my favourite titles and make (legal) digital copies for personal consumption. However, sorting files of this nature can become tedious and current software offerings have limitations. For this reason I've opted to extend my my Python skills and produce an command line application to meet my automation needs. This app is also open-source for others to enjoy!</p>
+							<p>With the increase in streaming services, I've become more interested in 'cutting the cord' and reducing the number of online streaming I subscribe to. This led me to collect physical media for my favourite titles and make digital copies for personal consumption. Sorting files of this nature can become tedious and current software offerings have limitations, thus producing my own automation tool kit. The code for this project is open-source allowing others to openly enjoy and modify without restriction.</p>
 							<p>This tool primarily has the task of interacting with various media database API's, analysing input filename paths and video metadata to gain data used for assumptions to produce new (user-configured) filenames and file structures.</p>
 						</div>
 					</div>
@@ -243,16 +258,18 @@
 								<li><i class="devicon-bootstrap-plain mr-2"></i>Bootstrap</li>
 								<li><i class="devicon-codeigniter-plain mr-2"></i>CodeIgniter</li>
 								<li><i class="devicon-angularjs-plain mr-2"></i>Angular</li>
+								<li><i class="devicon-vuejs-plain mr-2"></i>Vue.js (learning)</li>
+								<li><i class="devicon-laravel-plain mr-2"></i>Laravel (learning)</li>
 							</ul>
 						</div>
 						<div class="col-4">
-							<h4>Libraries/Database/Tools</h4>
+							<h4>Misc</h4>
 							<ul>
 								<li> <i class="devicon-mysql-plain mr-2"></i>MySQL</li>
 								<li><i class="devicon-mongodb-plain-wordmark mr-2"></i>MongoDB</li>
 								<li><i class="devicon-jquery-plain mr-2"></i>jQuery</li>
 								<li><i class="devicon-javascript-plain mr-2"></i>three.js</li>
-								<li><i class="devicon-git-plain mr-2"></i>git</li>
+								<li><i class="devicon-git-plain mr-2"></i>Git</li>
 							</ul>
 						</div>
 					</div>
@@ -285,7 +302,11 @@
 						</div>
 					</div>
 					<h2 class="major">Work Experience</h2>
-					<p>My education was important to me and so I focussed on it. That said, I do have a little experience outside education:</p>
+					
+					<ul>
+						<li>Junior Developer - <a href="https://www.jonesandpalmer.co.uk/" target="_blank">Jones & Palmer</a></li>
+						<p style="padding-left: 3rem; margin-bottom: 1rem;">A short lived position I held working for a Birmingham based printing & corporate digital portfolio company. This was a great opportunity and in my short stay I learnt a lot. With my girlfriend wishing to relocate to continue her studies and the commute no longer being achievable, the decision was made to move on. My duties at Jones & Palmer included writing mobile-first responsive websites for multiple corporate websites, working both solo and as part of a team, getting involved with different departments and team meetings and managing my time effectively.</p>
+					</ul>
 					<ul>
 						<li>Web Application Configuration/Development – Acuity Security</li>
 						<p style="padding-left: 3rem; margin-bottom: 1rem;">A client approached me with the request of producing a completely custom website system for matching potential security employees with employers. Whilst the original concept was achievable it would have taken time to do and funding was an issue for the client. Instead a more affordable alternative was suggested. An existing forum platform was licensed and tailored for the intended purpose, allowing the administrator to charge a small commission fee for the service when a match was made. Unfortunately this start-up business didn’t exactly take off as the client intended. That said, it did allow me to sharpen my skills dealing with general web hosting and gain more hands on experience setting up unknown web software.</p>
@@ -299,13 +320,13 @@
 						<p style="padding-left: 3rem;">While not computing related, I was recognised as a responsible student during my higher education studies and was offered a staff position as site-warden for the Boston College Halls of Residence. During this time I was responsible for the wellbeing of around 50 students outside of office hours and was able to solve many arising problems often working alongside the security team. This was basically a managerial position where I became used to decision making and following disciplinary procedures when dealing with rebellious students. During my employment for this role I also underwent fire safety & first aid courses.</p>
 					</ul>
 					<ul>
-						<li>Warehouse Worker – <a href="http://www.molan-uk.com/" target="_blank">Molan UK</a></li>
-						<p style="padding-left: 3rem;">During my college years, I found myself with free time and not a lot to do. This led me to take a job working as a general factory worker, teaching me patience if nothing else.</p>
+						<li>Warehouse Employee – <a href="http://www.molan-uk.com/" target="_blank">Molan UK</a></li>
+						<p style="padding-left: 3rem;">During my college years, I found myself with free time and not a lot to do. This led me to take a job working as a general factory employee, teaching me patience if nothing else. I had a handful of duties, primarily centred around transport loading, cleaning equipment and assisting with production.</p>
 					</ul>
 					<ul>
 						<li>Older Noteworthy Positions</li>
 						<ul style="padding-left: 3rem;">
-							<li>Freelance Website Developer – East Lincs Seafood - Clearing up previous developer mistakes</li>
+							<li>Freelance Website Developer – East Lincs Seafood - Clearing up previous developer HTML layout issues</li>
 							<li>Sports Direct - General sales department employee</li>
 							<li>2D Logo Design – Boston Railway Club,</li>
 							<li>Assisting IT Technician - Staniland Academy - Two month work experience placement</li>
@@ -327,7 +348,8 @@
 					<h2 class="major">Contact</h2>
                     <p>Ready to talk? Awesome! I'm excited to hear from you!</p>
                     <p class="float-left" style="line-height: 20px">My personal preference is contact via email:</p> <img class="float-left" src="assets/images/email.png" alt="(email address image not loaded)" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="(image due to spam)" />
-                    <p class="float-left">If however it's easier for you to do so, feel free to contact me via phone which is <a class="cv-button">listed in my CV</a>.</p>
+					<p class="float-left">I'm also reachable via <a href="https://uk.linkedin.com/in/hbkr" target="_blank">LinkedIn</a> or you can <a class="cv-button">check out my CV</a> where you'll find a phone number if you're in a rush.</p>
+					<p class="float-left">Hope to hear from you soon!</p>
 				</article>
 			</div>
 			<!-- Footer -->
